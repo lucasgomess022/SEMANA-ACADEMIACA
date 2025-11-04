@@ -4,6 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip,
 import { Cpu, FileSpreadsheet, Bot, Target, TrendingUp, CheckCircle, ChevronDown, ArrowRight, ArrowLeft, BrainCircuit, Sparkles, Lightbulb, ListChecks, Copy, Download } from 'lucide-react';
 
 import { Button } from "@/components/ui/button";
+import manualProfessorPDF from '/manual-professor-novo.pdf';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from "@/components/ui/dialog";
 
@@ -511,7 +512,7 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
                             <p className="text-gray-300 text-lg mb-6">
                                 Esta abordagem pedagógica com IA não apenas facilita o aprendizado de planilhas, mas também prepara os alunos para os desafios do mercado de trabalho moderno, focando em análise crítica e interpretação de dados.
                             </p>
-<a href="/manual-professor-novo.pdf" target="_blank" rel="noopener noreferrer">
+<a href={manualProfessorPDF} target="_blank" rel="noopener noreferrer">
 	                                <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-8 py-3 rounded-lg">
 	                                    Baixar Manual do Professor
 	                                </Button>
