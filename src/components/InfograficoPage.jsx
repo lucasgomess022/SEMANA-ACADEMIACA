@@ -239,7 +239,7 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
                                 <h2 className="text-2xl font-bold text-white">O Contexto</h2>
                             </div>
                                 <p className="text-gray-300">
-                                    Alunos de cursos técnicos frequentemente enfrentam dificuldades com fórmulas complexas em planilhas e nem sempre têm acesso ao software Excel oficial. Essa barreira técnica pode desmotivar e limitar o aprendizado de conceitos financeiros e administrativos essenciais.
+                                    Muitos alunos de cursos técnicos enfrentam dificuldades com fórmulas e softwares pagos. A IA surge como uma aliada acessível, que pode ser usada tanto no ensino técnico quanto no fundamental e médio. Ela apoia o professor na criação de atividades interativas e personalizadas, ampliando a compreensão e o interesse do aluno sem substituir o papel docente.
                                 </p>
                         </div>
                     </AnimatedCard>
@@ -250,7 +250,7 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
                                     <h2 className="text-2xl font-bold text-white">A Oportunidade: IA como Parceira</h2>
                                 </div>
                                 <p className="text-gray-300">
-                                    A Inteligência Artificial surge como uma poderosa aliada, permitindo que alunos e professores utilizem ferramentas de IA para analisar dados de qualquer planilha (Excel, Google Sheets, LibreOffice), focando na interpretação e aplicação prática, e não apenas na memorização de fórmulas. Isso democratiza o acesso e potencializa o aprendizado.
+                                    A Inteligência Artificial torna o ensino mais dinâmico, permitindo que professores e alunos analisem dados e compreendam conceitos matemáticos e financeiros de forma prática. Em vez de focar na memorização de fórmulas, a IA estimula a interpretação, o raciocínio e a aplicação real do conhecimento — tornando o aprendizado mais acessível e envolvente.
                                 </p>
                         </div>
                     </AnimatedCard>
