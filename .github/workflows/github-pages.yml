@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml' # Adicionado para melhor cache
+
+      - name: Install pnpm
+        run: npm install -g pnpm # Adicionado para garantir que o pnpm esteja no PATH
 
       - name: Install dependencies
         run: pnpm install
