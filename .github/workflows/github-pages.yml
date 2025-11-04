@@ -17,17 +17,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'pnpm'
-          cache-dependency-path: 'pnpm-lock.yaml' # Adicionado para melhor cache
+          cache: 'npm'
 
-      - name: Install pnpm
-        run: npm install -g pnpm # Adicionado para garantir que o pnpm esteja no PATH
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build project
-        run: pnpm run build
+      - name: Install dependencies and Build
+        run: |
+          npm install -g pnpm
+          pnpm install
+          pnpm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
