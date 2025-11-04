@@ -17,11 +17,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: 'pnpm' # CORRIGIDO: Mudamos de 'npm' para 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml' # Adicionado para cache
 
       - name: Install dependencies and Build
         run: |
-          npm install -g pnpm
+          npm install -g pnpm # Instala o pnpm globalmente
           pnpm install
           pnpm run build
 
