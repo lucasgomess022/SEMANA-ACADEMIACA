@@ -17,12 +17,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm' # Usando npm para cache
+          # REMOVIDO: cache: 'npm'
 
       - name: Install dependencies and Build
         run: |
-          npm install # Instala as dependências usando npm
-          npm run build # Executa o build usando npm
+          npm install -g pnpm # Instala o pnpm globalmente
+          pnpm install # Instala as dependências
+          pnpm run build # Executa o build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
